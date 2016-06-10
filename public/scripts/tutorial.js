@@ -47,9 +47,11 @@ var CommentList = React.createClass({
 var CommentForm = React.createClass({
   render: function() {
     return (
-      <div className="commentForm">
-        Hello, world! I am a CommentForm.
-      </div>
+      <form className="commentForm">
+        <input type="text" placeholder="Your name" />
+        <input type="text" placeholder="Say something..." />
+        <input type="submit" value="Post" />
+      </form>
     );
   }
 });
@@ -73,12 +75,6 @@ var Comment = React.createClass({
   }
 });
 
-var data = [
-  {id: 1, author: "Pete Hunt", text: "This is one comment"},
-  {id: 2, author: "Jordan Walke", text: "This is *another* comment"},
-  {id: 3, author: "Mike Young", text: "This is *another* *another* comment"}
-
-];
 
 
 
