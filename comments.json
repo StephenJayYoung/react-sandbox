@@ -8,5 +8,15 @@
         "id": 2,
         "author": "Mike Young",
         "text": "React is *great*!"
+    },
+    {
+        "id": 1465584621469,
+        "author": "Hey",
+        "text": "does this owrk"
+    },
+    {
+        "id": 1465584665545,
+        "author": "This works",
+        "text": "YES!"
     }
 ]
